@@ -13,10 +13,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.UUID;
 
-/**
- * @author 舒望
- * @date 2022/12/12 14:24
- */
+
 @Component
 public class RequestIdSetFilter implements GlobalFilter, Ordered {
 
